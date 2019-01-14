@@ -1,0 +1,163 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/***************************  popup ****************************/
+#popupmain{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.7);
+	z-index: 1001;
+}
+#popup{
+	width: 500px;
+	height: 250px;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url(popup.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	box-shadow: 2px 2px 5px 3px white;
+	text-align: center;
+}
+#heading{
+	transform: translateY(50px);
+	color: white;
+	font-family: 'Slabo 27px', serif;
+}
+#emailId{
+	width: 60%;
+	padding: 5px;
+	margin-top: 80px;
+	margin-bottom: 20px;
+	font-family: 'Slabo 27px', serif;
+}
+.submitId{
+	background-color: #0fc0fa;
+	border: none;
+	font-size: 1rem;
+	padding: 0.6rem 1rem;
+	color: white;
+	font-family: 'Slabo 27px', serif;
+}
+body{
+	background: url(bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+}
+header{
+	padding: 5px 30px 0px 30px;
+	background: rgba(255,255,255,0.6);
+}
+.hat{
+	float: left;
+}
+.search_my{
+	float: right;
+	border: 3px solid black;
+}
+header::before,header::after{
+			content: "";
+			display: block;
+			clear: both;
+}
+.color-title{
+	text-transform: uppercase;
+	color: #ff4181;
+}
+.button1{
+	border: none;
+	height: 40px;
+	width: 40px;
+	background-color: black;
+	color: white;
+}
+.search1{
+	background-color: transparent;
+	border: none;
+	width: 150px;
+}
+
+/********************************* navbar-nav ***************************/
+.navbar-nav li a{
+	font-size: 17px;
+	padding: 15px 60px !important;
+	color: black !important;
+}
+.navbar-nav li a:hover{
+	border-right: 3px solid #ff4f81;
+	border-left: 3px solid #ff4f81;
+	transition: 0.5s all;
+}
+
+/******************************* content *********************************/
+.content{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.content h2{
+	font-family: 'Mali', cursive;
+	color: white;
+	letter-spacing: 7px;
+	font-weight: 600;
+	font-weight: lighter;
+	font-size: 45px;
+	margin-top: 80px;
+}
+.content p{
+	font-family: 'Mali', cursive;
+	color: white;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+#btn-full{
+	font-family: 'Mali', cursive;
+	padding: 10px 30px;
+	border: 1px solid white;
+	border-radius: 200px;
+	text-decoration: none;
+	color: #fff;
+	background-color: black;
+}
+#btn-full:hover{
+	/* background-color:#bf55ec; */
+	background-color:#bf55ec;
+}
+
+/*************************** maps ************************/
+.maps{
+	margin-top: 725px;
+	margin-left: 365px;
+}
+
+/****************************** footer **********************/
+
+.foot{
+	margin-top: 40px;
+	height: 100px;
+	width: 100%;
+	background-color: black;
+	color: white;
+}
+.popup{
+	position: fixed;
+}
+@media(max-width: 992px){
+	.navbar-nav li a{
+		text-align: center;
+	}
+	.navbar-nav li a:hover{
+		background-color: #ff4f81;
+	}
+	.navbar-toggler:hover{
+		background-color: #ff4f81 !important;
+	}
+}

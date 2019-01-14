@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trying by me</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+	<!--------------------------------------- popUp ----------------------------------->
+		<div id="popupmain" style="display: none;">
+			<div id="popup">
+				<h2 id="heading">Subcribe to my channel</h2>
+				<input type="email" placeholder="user@email.com" id="emailId"><br>
+				<button class="submitId">Subscribe</button>
+				<button class="submitId">No Thanks</button>
+			</div>
+		</div>
+
+
+
+	<div class="banner">
+
+		<!--------------------------------------- header ------------------------------------>
+
+		<header>
+			<div class="hat">
+				<h1><i class="fa fa-home"></i><span class="color-title" style="font-family: 'Pacifico', cursive; font-size: 22px; letter-spacing: 2px;">Shrin<span style="color:#00E8E8;">joy</span></span></h1>
+			</div>
+			<div class="search_my">
+				<form>
+					<input type="text" placeholder="search" class="search1">
+					<button type="submit" class="button1"><i class="fa fa-search"></i></button>
+				</form>
+			</div>
+		</header>
+
+		<!--------------------------------------- navbar ----------------------------------->
+		<div class="nav1">
+			<nav class="navbar navbar-expand-md navbar-light bg-light">
+				<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent">
+	    			<span class="navbar-toggler-icon"></span>
+	  			</button>
+				
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav m-auto">
+						<li class="nav-item">
+							<a href="#" class="nav-link">HOME</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">MY WORK</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">PORTFOLIO</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">MY VLOG</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">MY BLOG</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">ABOUT US</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>	
+
+
+		<!-- <div class="content">
+			<h2>SHRINJOY SAHA</h2>
+			<p> A FULL STACK DEVELOPER</p>
+			<a href="#" id="btn-full">My Portfolio</a>
+			<a href="#" id="btn-full">My Works</a>
+		</div> -->
+
+	</div>
+
+	
+
+	<!---------------------------------- google map ---------------------------------------->
+		
+
+		<div class="maps">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d471218.38560188503!2d88.04952746944409!3d22.676385755547646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f882db4908f667%3A0x43e330e68f6c2cbc!2sKolkata%2C+West+Bengal!5e0!3m2!1sen!2sin!4v1547480520994" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>
+			
+
+		<footer class="foot">
+			<center><p style="padding-top: 27px;">@Copyright Shrinjoy Saha <a href="" style="color:white;"><i class="fa fa-linkedin" style="padding-left:5px;"></i></a> <a href="https://github.com/shrinjoy979?tab=repositories" style="color:white;"><i class="fa fa-github-square" style="padding-left:5px;"></i></a></p></center>
+		</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			setTimeout(function(){
+				$('#popupmain').css('display','block');
+			},3000);
+		});
+
+		$('.submitId').click(function(){
+			$('#popupmain').css('display','none');
+		});
+	</script>
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
